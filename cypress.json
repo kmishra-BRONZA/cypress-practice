@@ -1,0 +1,9 @@
+{
+  "chromeWebSecurity": false,
+  "video": true,
+  "testFiles": "**/*.{feature, features}",
+  "stepDefinitions": "cypress/support/step_definitions/*",
+  "env": {
+    "login_url": "/login"
+  }
+}
